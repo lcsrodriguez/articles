@@ -1,0 +1,12 @@
+{
+    "ceph": {
+        "title": "CEPH - Distributed data storage software layer",
+        "visible": false,
+        "keywords": ""
+    },
+    "lobster": {
+        "title": "What is LOBSTER",
+        "visible": false,
+        "keywords": ""
+    }
+}
