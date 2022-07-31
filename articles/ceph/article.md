@@ -21,6 +21,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend c
 ### test
 Integer tincidunt quam purus. Sed sagittis, lectus vel lobortis consectetur, ex augue luctus quam, ac feugiat est velit id neque. Sed laoreet ullamcorper laoreet. Nunc sollicitudin finibus tortor, eu malesuada nulla efficitur sed. Morbi commodo ut ligula rutrum luctus. Integer dui nunc, auctor ac gravida id, scelerisque et lectus. Etiam mattis nunc at egestas bibendum. Praesent est dolor, elementum eget mauris et, auctor placerat sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec lorem in sapien elementum bibendum. Cras dui lorem, fermentum eget magna id, convallis malesuada ipsum. Nulla facilisi. Fusce accumsan elit ullamcorper risus tempor, eu vulputate justo porta. Nullam metus ligula, tempor eget congue nec, egestas sed nisl. Ut sagittis, tellus a bibendum facilisis, velit nulla finibus tellus, a auctor sapien erat eget nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
+```python
+import matplotlib.pyplot
+
+f = lambda x: x**2
+
+plt.plot(a, b)
+plt.show
+```
+
+
 Duis tincidunt, est et vulputate pulvinar, ante nisl vestibulum sem, vel mollis lectus elit nec sem. Nulla tempus odio non massa rutrum, vitae venenatis lorem fringilla. Cras cursus velit nec rutrum sollicitudin. Sed in enim bibendum, elementum odio id, venenatis nulla. Proin rutrum vel lacus quis cursus. Nulla non odio nec enim suscipit feugiat. Aliquam bibendum diam eu leo lobortis fringilla. Proin euismod dictum risus vel finibus. Aenean porta blandit aliquet. Duis eget metus facilisis, tempus lorem sed, bibendum neque. Proin sed pellentesque nibh, sed scelerisque arcu. Sed varius eu nibh et ultrices. Praesent pharetra sem ut tortor viverra, a ullamcorper arcu ultrices. Morbi vitae pretium mi. Nunc non sollicitudin dui. Vivamus commodo ligula eget mauris ultricies scelerisque.
 
 $$
