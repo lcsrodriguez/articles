@@ -1,5 +1,3 @@
-<script src="https://unpkg.com/mermaid@8.4.0/dist/mermaid.min.js"></script>
-
 # CEPH - Distributed data storage software layer
 
 ## Introduction
@@ -29,10 +27,6 @@ $$
 
 Proin condimentum, felis eu **vestibulum scelerisque**, tortor enim varius risus, non sagittis sem justo ut libero. Aenean scelerisque justo vel elit mattis accumsan. Integer porttitor, felis ac aliquam feugiat, orci ipsum suscipit arcu, eu hendrerit felis ipsum in massa. Cras accumsan ante nec metus vehicula, vitae ullamcorper eros facilisis. Vivamus vitae odio a ante euismod tristique. Donec id porta _quam. Donec dapibus condimentum_ suscipit.
 
-```mermaid
-graph TD;A-->B;A-->C;B-->D;C-->D;
-
-```
 
 Morbi tortor quam, imperdiet eu ipsum venenatis, facilisis placerat tortor. Ut interdum blandit tristique. Curabitur lacinia libero id aliquet placerat. Vestibulum posuere, elit maximus hendrerit laoreet, ex felis congue augue, et lacinia diam mauris sed dolor. Nam dui dui, facilisis et volutpat ultricies, auctor non nulla. Aliquam erat volutpat. Mauris rhoncus massa eu nulla porttitor fermentum et a felis.
 
