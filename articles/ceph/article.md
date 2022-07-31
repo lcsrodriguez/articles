@@ -6,7 +6,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend c
 
 
 ### test
-Integer tincidunt quam purus. Sed sagittis, lectus vel lobortis consectetur, ex augue luctus quam, ac feugiat est velit id neque. Sed laoreet ullamcorper laoreet. Nunc sollicitudin finibus tortor, eu malesuada nulla efficitur sed. Morbi commodo ut ligula rutrum luctus. Integer dui nunc, auctor ac gravida id, scelerisque et lectus. Etiam mattis nunc at egestas bibendum. Praesent est dolor, elementum eget mauris et, auctor placerat sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras nec lorem in sapien elementum bibendum. Cras dui lorem, fermentum eget magna id, convallis malesuada ipsum. Nulla facilisi. Fusce accumsan elit ullamcorper risus tempor, eu vulputate justo porta. Nullam metus ligula, tempor eget congue nec, egestas sed nisl. Ut sagittis, tellus a bibendum facilisis, velit nulla finibus tellus, a auctor sapien erat eget nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Integer tincidunt quam purus. Sed sagittis, lectus vel lobortis consectetur, ex augue luctus quam, ac feugiat est velit id neque. Sed laoreet ullamcorper laoreet. Nunc sollicitudin finibus tortor, eu malesuada nulla efficitur sed. Morbi commodo ut ligula rutrum luctus. Integer dui nunc, auctor ac gravida id, scelerisque et lectus. Etiam mattis nunc at egestas bibendum. Praesent est dolor, elementum eget mauris et, auctor placerat sapien. Pellentesque habitant morbi tristique senectus and $\varphi : a \longmapsto a^3 + 3\times b$ et netus et malesuada fames ac turpis egestas. Cras nec lorem in sapien elementum bibendum. Cras dui lorem, fermentum eget magna id, convallis malesuada ipsum. Nulla facilisi. Fusce accumsan elit ullamcorper risus tempor, eu vulputate justo porta. Nullam metus ligula, tempor eget congue nec, egestas sed nisl. Ut sagittis, tellus a bibendum facilisis, velit nulla finibus tellus, a auctor sapien erat eget nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
 ```python
 import matplotlib.pyplot
@@ -26,4 +26,12 @@ $$
 
 Proin condimentum, felis eu **vestibulum scelerisque**, tortor enim varius risus, non sagittis sem justo ut libero. Aenean scelerisque justo vel elit mattis accumsan. Integer porttitor, felis ac aliquam feugiat, orci ipsum suscipit arcu, eu hendrerit felis ipsum in massa. Cras accumsan ante nec metus vehicula, vitae ullamcorper eros facilisis. Vivamus vitae odio a ante euismod tristique. Donec id porta _quam. Donec dapibus condimentum_ suscipit.
 
+
+![test](https://datasciience.iiens.net/assets/img/logo_DS.png)
+
 Morbi tortor quam, imperdiet eu ipsum venenatis, facilisis placerat tortor. Ut interdum blandit tristique. Curabitur lacinia libero id aliquet placerat. Vestibulum posuere, elit maximus hendrerit laoreet, ex felis congue augue, et lacinia diam mauris sed dolor. Nam dui dui, facilisis et volutpat ultricies, auctor non nulla. Aliquam erat volutpat. Mauris rhoncus massa eu nulla porttitor fermentum et a felis.
+
+
+<p align="center">
+<img src="https://datasciience.iiens.net/assets/img/logo_DS.png" width="200"/>
+</p>
