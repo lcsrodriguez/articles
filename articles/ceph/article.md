@@ -1,3 +1,5 @@
+<script src="https://unpkg.com/mermaid@8.4.0/dist/mermaid.min.js"></script>
+
 # CEPH - Distributed data storage software layer
 
 ## Introduction
