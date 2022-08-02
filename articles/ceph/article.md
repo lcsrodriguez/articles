@@ -19,10 +19,10 @@ plt.show
 
 
 ```mermaid
-graph TD  
-A[Start] --> C{Answer Question?}  
-C -->|Yes| D[Do Something]  
-C -->|No| E[Do Something]  
+graph TD 
+A[Client] --> B[Load Balancer] 
+B --> C[Server01] 
+B --> D[Server02]
 ```
 
 
