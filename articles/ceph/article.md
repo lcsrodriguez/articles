@@ -18,14 +18,7 @@ plt.show
 ```
 
 
-```mermaid
-graph TD 
-A[Client] --> B[Load Balancer] 
-B --> C[Server01] 
-B --> D[Server02]
-```
-
-```mermaid
+<div class="mermaid">
 classDiagram
 Class01 <|-- AveryLongClass : Cool
 <<Interface>> Class01
@@ -42,7 +35,7 @@ class Class10 {
   int id
   size()
 }
-```
+</div>
 
 
 <div class="mermaid">
