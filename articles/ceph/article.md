@@ -25,7 +25,24 @@ B --> C[Server01]
 B --> D[Server02]
 ```
 
-
+```mermaid
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+<<Interface>> Class01
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  <<service>>
+  int id
+  size()
+}
+```
 
 Duis tincidunt, est et vulputate pulvinar, ante nisl vestibulum sem, vel mollis lectus elit nec sem. Nulla tempus odio non massa rutrum, vitae venenatis lorem fringilla. Cras cursus velit nec rutrum sollicitudin. Sed in enim bibendum, elementum odio id, venenatis nulla. Proin rutrum vel lacus quis cursus. Nulla non odio nec enim suscipit feugiat. Aliquam bibendum diam eu leo lobortis fringilla. Proin euismod dictum risus vel finibus. Aenean porta blandit aliquet. Duis eget metus facilisis, tempus lorem sed, bibendum neque. Proin sed pellentesque nibh, sed scelerisque arcu. Sed varius eu nibh et ultrices. Praesent pharetra sem ut tortor viverra, a ullamcorper arcu ultrices. Morbi vitae pretium mi. Nunc non sollicitudin dui. Vivamus commodo ligula eget mauris ultricies scelerisque.
 
