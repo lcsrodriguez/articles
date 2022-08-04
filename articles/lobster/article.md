@@ -15,7 +15,7 @@
 $$\psi : \mathbb{R} \ni z \longmapsto \psi(z) \in \mathbb{A}$$
 
 
-```Q
+```q
 \l sp.q
 exec from sp  / last record
 x:`a`b`c`d
