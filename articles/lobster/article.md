@@ -10,3 +10,6 @@
 
 1. What is LOBSTER ?
 2. What is an order book ?
+
+
+$$\psi : \mathbb{R} \ni z \longmapsto \psi(z) \in \mathbb{A}$$
