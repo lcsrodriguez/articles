@@ -2,7 +2,7 @@
     "ceph": {
         "slug": "ceph",
         "title": "CEPH - Distributed data storage software layer",
-        "visible": false,
+        "visible": true,
         "keywords": ""
     },
     "lobster": {
