@@ -16,27 +16,29 @@ fi
 echo "Creating the folder"
 mkdir $DIRECTORY
 
-echo "Creating the main file (article.md)"
-touch $DIRECTORY/article.md
-
-echo "Pushing on Git the new update"
-# git add $DIRECTORY
-# git commit -m "Adding new folder for article $ARTICLE_SLUG"
-# git push
-
-# echo "Asking further information"
-# echo -n "Article title --> "
-# read ARTICLE_TITLE
-# echo "The article title is : $ARTICLE_TITLE"
+echo "Asking further information"
+echo -n "Article title --> "
+read ARTICLE_TITLE
+echo "The article title is : $ARTICLE_TITLE"
 # echo -n "Article keywords (seperated by a dash ';') --> "
 # read ARTICLE_KEYWORDS
 # echo "The article keywords are : $ARTICLE_KEYWORDS"
 
+echo "Creating the main file (article.md)"
+echo "# $ARTICLE_TITLE" >$DIRECTORY/article.md
+
 # Getting the current formatted date
-date +'%m/%d/%Y'
-date +'%r'
-CURRENT_DATE=$(date +'%m/%d/%Y')
-echo $CURRENT_DATE
+# date +'%m/%d/%Y'
+# date +'%r'
+# CURRENT_DATE=$(date +'%m/%d/%Y')
+# echo $CURRENT_DATE
 
 # Updating the list.json
 #jq '.'"$ARTICLE_SLUG"'.slug="'$ARTICLE_SLUG'" | .'"$ARTICLE_SLUG"'.title="article_title" | .'"$ARTICLE_SLUG"'.visible=false | .'"$ARTICLE_SLUG"'.date="'$CURRENT_DATE'" | .'"$ARTICLE_SLUG"'.keywords="article_keywords"' list.json | jq . >list.json
+
+echo "Pushing on Git the new update"
+git add $DIRECTORY
+git commit -m "Adding new folder for article $ARTICLE_SLUG"
+git push
+
+echo "FINISHED"
