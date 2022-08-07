@@ -3,12 +3,14 @@
         "slug": "ceph",
         "title": "CEPH - Distributed data storage software layer",
         "visible": true,
+        "date": "2022-08-07",
         "keywords": ""
     },
     "lobster": {
         "slug": "lobster",
         "title": "What is LOBSTER",
         "visible": false,
+        "date": "",
         "keywords": ""
     }
 }
