@@ -38,7 +38,7 @@ echo "# $ARTICLE_TITLE" >$DIRECTORY/article.md
 
 echo "Pushing on Git the new update"
 git add $DIRECTORY
-git commit -m "Adding new folder for article $ARTICLE_SLUG"
+git commit -S -m "Adding new folder for article $ARTICLE_SLUG"
 git push
 
 echo "FINISHED"
