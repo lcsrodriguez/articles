@@ -36,8 +36,3 @@ Proin condimentum, felis eu **vestibulum scelerisque**, tortor enim varius risus
 
 
 Morbi tortor quam, imperdiet eu ipsum venenatis, facilisis placerat tortor. Ut interdum blandit tristique. Curabitur lacinia libero id aliquet placerat. Vestibulum posuere, elit maximus hendrerit laoreet, ex felis congue augue, et lacinia diam mauris sed dolor. Nam dui dui, facilisis et volutpat ultricies, auctor non nulla. Aliquam erat volutpat. Mauris rhoncus massa eu nulla porttitor fermentum et a felis.
-
-
-<p align="center">
-<img src="https://datasciience.iiens.net/assets/img/logo_DS.png" width="200"/>
-</p>
