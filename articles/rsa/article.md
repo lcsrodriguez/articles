@@ -16,9 +16,24 @@ $$\varphi(n) = (p - 1)(q - 1)$$
 
 ### Implementation in Python
 
+```python
+def encrypt(p: int = 0, q: int = 2) -> bool:
+    """
+    :return:
+    """
+
+    return a
+```
 
 ### Implmentation in C++
 
+```cpp
+#include<stdio.h>
+#include<stderr>
+int main(int argc, char** argv){
+    return 0;
+}
+```
 
 
 ## References
