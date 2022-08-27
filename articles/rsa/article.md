@@ -8,11 +8,11 @@ The main goal of this article is to introduce to the readers, the main features 
 It is widely used, since its release in 1977, to strenghten the transmission of highly-sensitive data.
 
 
-## Theory
+## Theory part
 
 $$\varphi(n) = (p - 1)(q - 1)$$
 
-## Practice
+## Practice: Implementations
 
 ### Implementation in Python
 
