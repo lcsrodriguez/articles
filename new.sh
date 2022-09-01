@@ -40,5 +40,5 @@ echo "Pushing on Git the new update"
 git add $DIRECTORY
 git commit -S -m "Adding new folder for article $ARTICLE_SLUG"
 git push
-
+echo "Article published to Git"
 echo "FINISHED"
