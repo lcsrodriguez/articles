@@ -39,13 +39,17 @@ large variety of the past market moves. It helps to improve business performance
 the flaws of current decision-making process and upgrade them using statistical
 techniques (including supervised/unsupervised learning).
 
+One major drawback is real-time data sources are proprietary and for many of them, services are highly expensive for a student
+or academic if you want to have access to tick data.
+
 ## Introduction
 
-I
+Many providers 
 
 
 ## Goals
 
+The main goal of this project is to extract 
 
 ## Overview of the available solutions
 
