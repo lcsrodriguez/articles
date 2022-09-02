@@ -1,2 +1,6 @@
 IDEAS.md
 new_list.json
+.idea/
+__pycache__
+.DS_Store
+
