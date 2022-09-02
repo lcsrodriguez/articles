@@ -16,12 +16,12 @@ We also denote the $\mathcal{G}_t$ which represents the information newly availa
 
 So, we have:
 
-$$\mathcal{F}_t = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}$$
+$$\mathcal{F}_{t} = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}$$
 
 The goal of most of the financial actors is to have access to the widest set \mathcal{G}_{t} at any given time.
 
 
-While the intervals $\left[| t - 1, t \right]$ between two significant markets moves (or updates), is becoming smaller and smaller,
+While the intervals $[\![ t - 1, t ]\!]$ between two significant markets moves (or updates), is becoming smaller and smaller,
 thanks to the new *Electronic Era*, the financial actors have to follow the trends and gather as many data as available 
 and process it **before** performing a *cold-storage*. In the meantime, they have to adapt the data process pipeline, to
 another category of operations: real-time data manipulation.
