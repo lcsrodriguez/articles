@@ -15,21 +15,14 @@ We also denote the $\mathcal{G}_t$ which represents the information newly availa
 (not before, not after): the set $\mathcal{G}_t$ has **no memory** and does not contain any information from the past.
 
 So, we have:
-
-
 $$
 \mathcal{F}\_{t} := \mathcal{G}\_{t} + \mathcal{F}\_{t}
 $$
 
 
-$$
-\mathbf{f}(x) = \sum_{i = 1}^n \phi_i(x) + \int\int\int h(t)\mathrm{d}t
-$$
-
 The goal of most of the financial actors is to have access to the widest set $\mathcal{G}_{t}$ at any given time.
 
-
-While the intervals $[\![ t - 1, t ]\!]$ between two significant markets moves (or updates), is becoming smaller and smaller,
+While the intervals $[\\![t - 1;t]\\!]$ between two significant markets moves (or updates), is becoming smaller and smaller,
 thanks to the new *Electronic Era*, the financial actors have to follow the trends and gather as many data as available 
 and process it **before** performing a *cold-storage*. In the meantime, they have to adapt the data process pipeline, to
 another category of operations: real-time data manipulation.
