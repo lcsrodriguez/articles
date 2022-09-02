@@ -26,7 +26,7 @@ $$
 f(x) = \sum_{i = 1}^n \phi_i(x) + \int\int\int h(t)\mathrm{d}t
 $$
 
-The goal of most of the financial actors is to have access to the widest set \mathcal{G}_{t} at any given time.
+The goal of most of the financial actors is to have access to the widest set $\mathcal{G}_{t}$ at any given time.
 
 
 While the intervals $[\![ t - 1, t ]\!]$ between two significant markets moves (or updates), is becoming smaller and smaller,
@@ -56,8 +56,11 @@ I
 
 ## Overview of the available solutions
 
-
-Yahoo Finance
+- IEX Cloud
+- Google Finance
+- Yahoo Finance
+- Bloomberg
+- NYSE/Euronext
 
 ## Implementation
 
