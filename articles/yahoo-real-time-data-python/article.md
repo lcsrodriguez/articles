@@ -16,7 +16,15 @@ We also denote the $\mathcal{G}_t$ which represents the information newly availa
 
 So, we have:
 
-$$\mathcal{F}_{t} = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}$$
+
+$$
+\mathcal{F}_{t} = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}
+$$
+
+
+$$
+f(x) = \sum_{i = 1}^n \phi_i(x) + \int\int\int h(t)\mathrm{d}t
+$$
 
 The goal of most of the financial actors is to have access to the widest set \mathcal{G}_{t} at any given time.
 
