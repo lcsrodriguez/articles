@@ -18,7 +18,7 @@ So, we have:
 
 
 $$
-\mathcal{F}_{t} := \mathcal{G}_{t} + \mathcal{F}_{t}
+\mathcal{F}\_{t} := \mathcal{G}\_{t} + \mathcal{F}\_{t}
 $$
 
 
