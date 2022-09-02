@@ -19,5 +19,12 @@
         "visible": false,
         "date": "2022/08/11",
         "keywords": "RSA, cryptosystem"
+    },
+    "yahoo-real-time-data-python": {
+        "slug": "yahoo-real-time-data-python",
+        "title": "Yahoo Real-time data collector - Python",
+        "visible": false,
+        "date": "2022/09/02",
+        "keywords": "Websockets, Protobuf, Python, Real-time data"
     }
 }
