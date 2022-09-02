@@ -23,7 +23,7 @@ $$
 
 
 $$
-f(x) = \sum_{i = 1}^n \phi_i(x) + \int\int\int h(t)\mathrm{d}t
+\mathbf{f}(x) = \sum_{i = 1}^n \phi_i(x) + \int\int\int h(t)\mathrm{d}t
 $$
 
 The goal of most of the financial actors is to have access to the widest set $\mathcal{G}_{t}$ at any given time.
