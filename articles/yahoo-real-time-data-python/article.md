@@ -17,9 +17,9 @@ We also denote the $\mathcal{G}_t$ which represents the information newly availa
 So, we have:
 
 
-$$
+$
 \mathcal{F}_{t} = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}
-$$
+$
 
 
 $$
