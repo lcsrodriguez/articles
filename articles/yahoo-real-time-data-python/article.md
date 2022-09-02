@@ -17,9 +17,9 @@ We also denote the $\mathcal{G}_t$ which represents the information newly availa
 So, we have:
 
 
-$
-\mathcal{F}_{t} = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}
-$
+$$
+\mathcal{F}_{t}
+$$
 
 
 $$
@@ -74,4 +74,6 @@ I
 
 ## References
 
+- https://www.techopedia.com/definition/31256/real-time-data
 - https://www.zeni.ai/blog/real-time-financial-data
+- https://internationalbanker.com/technology/why-real-time-data-matters-in-financial-services/
