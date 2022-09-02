@@ -16,9 +16,7 @@ We also denote the $\mathcal{G}_t$ which represents the information newly availa
 
 So, we have:
 
-$$
-\mathcal{F}_t = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}
-$$
+$$\mathcal{F}_t = \mathcal{G}_{t} \cup \mathcal{F}_{t - 1}$$
 
 The goal of most of the financial actors is to have access to the widest set \mathcal{G}_{t} at any given time.
 
