@@ -4,7 +4,7 @@
 ## Introduction
 
 
-## Identification of heavy-tailed distribution
+## Identification with exponential benchmark
 
 There exists many ways to identify the type of tailed thickness of a given probability distribution.
 
@@ -56,11 +56,11 @@ So that, we only have to recover only one $\alpha_0$ strictly positive, which sa
 
 
 
-| Distribution  | $e_F$  |   |   |
-|---|---|---|---|
-| Exponential  |   |   |   |
-| Pareto  |   |   |   |
-| Gamma  |   |   |   |
+
+
+
+
+## Identification with mean-excess function $e_f$
 
 
 ## Summary
