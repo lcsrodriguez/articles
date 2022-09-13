@@ -4,6 +4,8 @@
 ## Introduction
 
 
+## Identification of heavy-tailed distribution
+
 There exists many ways to identify the type of tailed thickness of a given probability distribution.
 
 One of the most classical techniques is to use the exponential function as a benchmark measure with respect to the considered distribution.
@@ -20,6 +22,30 @@ $$
 $$
 
 
+
+
+The generic exponential function ($\cdot \longmapsto \exp \cdot$) is commonly used as a benchmark for tails width.
+
+
+Many criteria can be used with this method, in order to distinguish either heavy or light-tailed distributions.
+
+
+$F$ is ***light-tailed*** if:
+
+$$
+\lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{\exp(-\alpha x)} < + \infty, \ \text{for some $\alpha > 0$}
+$$
+
+$F$ is ***heavy-tailed*** if:
+
+$$
+\lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{\exp(-\alpha x)} = + \infty, \ \forall \alpha > 0
+$$
+
+
+
+
+## Summary
 
 ## References
 
