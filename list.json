@@ -26,5 +26,12 @@
         "visible": false,
         "date": "2022/09/02",
         "keywords": "Websockets, Protobuf, Python, Real-time data"
+    },
+    "heavy-tailed-dist": {
+        "slug": "heavy-tailed-dist",
+        "title": "Overview of heavy-tailed distribution",
+        "visible": false,
+        "date": "2022/09/13",
+        "keywords": "-"
     }
 }
