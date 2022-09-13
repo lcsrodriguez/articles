@@ -55,6 +55,14 @@ So that, we only have to recover only one $\alpha_0$ strictly positive, which sa
 **Proposition**: Let $X$ be a non negative $\mathbb{R}$-valued random variable with $M_X$, its moment generating function (mgf) defined in $u > 0$
 
 
+
+| Distribution  | $e_F$  |   |   |
+|---|---|---|---|
+| Exponential  |   |   |   |
+| Pareto  |   |   |   |
+| Gamma  |   |   |   |
+
+
 ## Summary
 
 
