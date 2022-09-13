@@ -12,6 +12,7 @@ One of the most classical techniques is to use the exponential function as a ben
 
 
 <p class="definition">
+test
 </p>
     
     
@@ -33,19 +34,38 @@ Many criteria can be used with this method, in order to distinguish either heavy
 $F$ is ***light-tailed*** if:
 
 $$
-\lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{\exp(-\alpha x)} < + \infty, \ \text{for some $\alpha > 0$}
+\lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{e^{-\alpha x}} < + \infty, \ \text{for some $\alpha > 0$}
 $$
+
 
 $F$ is ***heavy-tailed*** if:
 
 $$
-\lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{\exp(-\alpha x)} = + \infty, \ \forall \alpha > 0
+\forall \alpha > 0, \ \lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{e^{-\alpha x}} = + \infty
 $$
 
+Remark: For simplicity sake within further mathematical proofs, the *for some* statement can be easily replaced by:
 
+$$
+\exists \alpha_0 > 0, \ \lim_{x \rightarrow + \infty} \frac{\overline{F}(x)}{e^{-\alpha_0 x}} < + \infty
+$$
+
+So that, we only have to recover only one $\alpha_0$ strictly positive, which satisfies this property.
+
+**Proposition**: Let $X$ be a non negative $\mathbb{R}$-valued random variable with $M_X$, its moment generating function (mgf) defined in $u > 0$
 
 
 ## Summary
+
+
+$$M_X(u) := \mathbb{E}[e^{uX}], \ \forall u \in \mathbb{R}$$
+
+
+If $X \sim F$, then:
+
+$$
+M_X(u) := \int_{\mathbb{R}} e^{ux} \mathrm{d}F(x) = \int_{\mathbb{R}} e^{ux} f(x)\mathrm{d}x
+$$
 
 ## References
 
