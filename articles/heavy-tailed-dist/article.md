@@ -63,6 +63,21 @@ So that, we only have to recover only one $\alpha_0$ strictly positive, which sa
 ## Identification with mean-excess function $e_f$
 
 
+## Sub-exponential
+
+## Identification of the tail-index
+
+[AEST] (Wayback Machine)
+
+
+- [Homepage](https://web.archive.org/web/20201125013129/http://www.cs.bu.edu/~crovella/aest.html)
+- `.tar` project source 
+
+Download the PostScript file (`.ps`) then
+```shell
+ps2pdf aest.ps doc.pdf
+```
+
 ## Summary
 
 
