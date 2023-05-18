@@ -34,7 +34,7 @@
         "date": "2022/09/13",
         "keywords": "-"
     },
-    "mercator": {
+    "mercator-projection": {
         "slug": "mercator-projection",
         "title": "Mercator projecion",
         "visible": true,
