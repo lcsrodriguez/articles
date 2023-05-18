@@ -37,7 +37,7 @@ echo "# $ARTICLE_TITLE" >$DIRECTORY/article.md
 #jq '.'"$ARTICLE_SLUG"'.slug="'$ARTICLE_SLUG'" | .'"$ARTICLE_SLUG"'.title="article_title" | .'"$ARTICLE_SLUG"'.visible=false | .'"$ARTICLE_SLUG"'.date="'$CURRENT_DATE'" | .'"$ARTICLE_SLUG"'.keywords="article_keywords"' list.json | jq . >list.json
 
 echo "Pushing on Git the new update"
-git add $DIRECTORY
+git add $DIRECTORY list.json
 git commit -S -m "Adding new folder for article $ARTICLE_SLUG"
 git push
 echo "Article published to Git"

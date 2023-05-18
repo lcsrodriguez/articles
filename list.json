@@ -33,5 +33,12 @@
         "visible": false,
         "date": "2022/09/13",
         "keywords": "-"
+    },
+    "mercator": {
+        "slug": "mercator-projection",
+        "title": "Mercator projecion",
+        "visible": true,
+        "date": "2023/05/18",
+        "keywords": "-"
     }
 }
