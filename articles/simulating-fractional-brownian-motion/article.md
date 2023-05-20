@@ -59,7 +59,16 @@ First, we set:
 
 1. Consider a partition of the considered time interval $\left[0, T\right]$: $$\Pi_N := 0 =: t_0 < t_1 < \ldots < t_N := T $$
 
-2. Compute the variance-covariance matrix $\Sigma$ of the Gaussian vector $(W^H_{t_i})_{i \in \lbrace 1, \ldots, N\rbrace}$
+2. Compute the variance-covariance matrix $\Sigma$ of the Gaussian vector $(W^H_{t_i})_{i \in \lbrace 1, \ldots, N\rbrace}$ where:
+
+$$
+\begin{aligned}
+\Sigma_{i,j} &:= \text{Cov}(W^H_{t_i}, W^H_{t_j}) \\\ 
+&= \mathbb{E}[W^H_{t_i}W^H_{t_j}] - \mathbb{E}[W^H_{t_i}]\mathbb{E}[W^H_{t_j}] \\\ 
+&= \mathbb{E}[W^H_{t_i}W^H_{t_j}] \\\ 
+&= \frac{1}{2}\Big(|t|^{2H} + |s|^{2H} - |t - s|^{2H}\Big)
+\end{aligned}
+$$
 
 3. Perform the Cholesky decomposition of $\Sigma$:
 $$
@@ -95,10 +104,6 @@ def simulate_fBm() -> np.ndarray:
     """
     """
     pass
-```
-
-```q
-table:show raze 
 ```
 
 ## Results
