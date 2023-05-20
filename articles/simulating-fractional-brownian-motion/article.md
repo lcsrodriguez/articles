@@ -85,5 +85,20 @@ We now have a fully operational simulation protocol to generate random paths of 
 
 ## Implementation
 
+```python
+# Importing modules 
+import numpy as np
+```
+
+```python
+def simulate_fBm() -> np.ndarray:
+    """
+    """
+    pass
+```
+
+```q
+table:show raze 
+```
 
 ## Results
