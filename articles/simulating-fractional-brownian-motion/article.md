@@ -97,13 +97,65 @@ We now have a fully operational simulation protocol to generate random paths of 
 ```python
 # Importing modules 
 import numpy as np
+import matplotlib.pyplot as plt
 ```
 
 ```python
-def simulate_fBm() -> np.ndarray:
+def fBm(N: int = 10**3, 
+        H: float = 1e-1, 
+        T: float = 1.0) -> np.ndarray:
+    """Function simulating and returning a fractional Brownian motion
+
+    Args:
+        N (int, optional): Length of the simulated sample. Defaults to 10**3.
+        H (float, optional): Hurst parameter. Defaults to 1e-1.
+        T (float, optional): Time horizon. Defaults to 1.0.
+
+    Returns:
+        np.ndarray: Array containing the fBm trajectory
     """
-    """
-    pass
+
+    # Defining the time grid
+    Pi = np.linspace(0, T, N)
+    
+    # Computation of the variance covariance matrix
+    gamma = np.zeros((N-1, N-1))
+    for i in range(N-1):
+        for j in range(N-1):
+            gamma[i, j] = (Pi[i+1]**(2*H) + Pi[j+1]**(2*H) - (Pi[i+1] - Pi[j+1])**(2*H))/2
+            
+    # Performing a Cholesky factorization
+    C = np.linalg.cholesky(gamma)
+    
+    # Simulation of a normal law
+    Z = np.random.normal(0, 1, N - 1)
+    
+    # Simulation of the fractional brownian motion
+    Y = C.dot(Z)
+
+    # Returning the simulated fBm path
+    return {"t": Pi, "fBm": np.array([0] + list(Y))}
 ```
 
 ## Results
+
+
+```
+               fBm
+t                 
+0.000000  0.000000
+0.001001  0.016699
+0.002002  0.032426
+0.003003  0.133773
+0.004004  0.048373
+...            ...
+0.995996 -0.089878
+0.996997 -0.133561
+0.997998 -0.104243
+0.998999 -0.014966
+1.000000  0.200357
+
+[1000 rows x 1 columns]
+```
+
+<img src="img/fBm.png">

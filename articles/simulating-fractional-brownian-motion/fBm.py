@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 
@@ -38,7 +39,10 @@ def fBm(N: int = 10**3,
     return {"t": Pi, "fBm": np.array([0] + list(Y))}
 
 
+# Executing the function fBm
 res = fBm()
+
+# Plotting the information
 plt.figure(figsize=(10, 5))
 plt.plot(res["t"], res["fBm"], color="blue", ls="-")
 plt.title("Fractional Brownian motion trajectory")
@@ -46,4 +50,7 @@ plt.xlabel("Time")
 plt.ylabel("Simulation")
 plt.show()
 
-#print(fBm())
+
+#
+df = pd.DataFrame(data=res, columns=["t", "fBm"]).set_index("t")
+print(df)
