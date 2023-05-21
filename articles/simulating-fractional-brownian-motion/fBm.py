@@ -20,14 +20,14 @@ def fBm(N: int = 10**3,
     # Defining the time grid
     Pi = np.linspace(0, T, N)
     
-    # Computation of the variance covariance matrix
-    gamma = np.zeros((N-1, N-1))
+    # Computation of the variance covariance matrix Sigma
+    Sigma = np.zeros((N-1, N-1))
     for i in range(N-1):
         for j in range(N-1):
-            gamma[i, j] = (Pi[i+1]**(2*H) + Pi[j+1]**(2*H) - (Pi[i+1] - Pi[j+1])**(2*H))/2
+            Sigma[i, j] = (Pi[i+1]**(2*H) + Pi[j+1]**(2*H) - (Pi[i+1] - Pi[j+1])**(2*H))/2
             
     # Performing a Cholesky factorization
-    C = np.linalg.cholesky(gamma)
+    C = np.linalg.cholesky(Sigma)
     
     # Simulation of a normal law
     Z = np.random.normal(0, 1, N - 1)
