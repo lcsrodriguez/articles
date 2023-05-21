@@ -39,7 +39,7 @@ def fBm(N: int = 10**3,
     return {"t": Pi, "fBm": np.array([0] + list(Y))}
 
 
-# Executing the function fBm
+# Executing the fBm function
 res = fBm()
 
 # Plotting the information

@@ -97,6 +97,7 @@ We now have a fully operational simulation protocol to generate random paths of 
 ```python
 # Importing modules 
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 ```
 
@@ -139,6 +140,16 @@ def fBm(N: int = 10**3,
 
 ## Results
 
+```python
+# Executing the fBm function
+res = fBm()
+```
+
+```python
+df = pd.DataFrame(data=res, columns=["t", "fBm"]).set_index("t")
+print(df)
+```
+
 
 ```
                fBm
@@ -158,4 +169,14 @@ t
 [1000 rows x 1 columns]
 ```
 
-<img src="img/fBm.png">
+```python
+# Plotting the information
+plt.figure(figsize=(10, 5))
+plt.plot(res["t"], res["fBm"], color="blue", ls="-")
+plt.title("Fractional Brownian motion trajectory")
+plt.xlabel("Time")
+plt.ylabel("Simulation")
+plt.show()
+```
+
+<img src="https://raw.githubusercontent.com/lcsrodriguez/articles/main/articles/simulating-fractional-brownian-motion/img/fBm.png">
