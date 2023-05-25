@@ -48,7 +48,7 @@ tree -L 2
 
 Reference: https://developers.google.com/protocol-buffers/docs/proto3?hl=en#enum
 
-```mermaid
+<div class="mermaid">
 graph TD
     PricingData
     StaticData
@@ -58,7 +58,7 @@ graph TD
     PricingData --> OptionType
     PricingData --> GD[General attributes] 
     StaticData --> GD2[General attributes] 
-```
+</div>
 
 ## `.proto` file
 
