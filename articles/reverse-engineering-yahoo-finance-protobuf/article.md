@@ -7,9 +7,11 @@
 
 ## Current architecture
 
+
+
 <img src="https://raw.githubusercontent.com/lcsrodriguez/articles/main/articles/reverse-engineering-yahoo-finance-protobuf/img/http-request.png">
 
-
+**Links**:
 - Protocol Buffer JS script: [https://s.yimg.com/uc/finance/webcore/js/_staticFinProtobuf.b489a1e1df53bbfff9f8.mjs](https://s.yimg.com/uc/finance/webcore/js/_staticFinProtobuf.b489a1e1df53bbfff9f8.mjs)
 
 - License: [Finance WebCore 1.0.312 Copyright 2023 Yahoo Inc.](https://s.yimg.com/uc/finance/webcore/js/_staticFinProtobuf.b489a1e1df53bbfff9f8.mjs.LICENSE.txt)
@@ -109,9 +111,7 @@ message PricingData {
   double marketcap = 33;
   string components = 34;
 };
-```
 
-```protobuf
 // Static data
 message StaticData {
   string id = 1;
