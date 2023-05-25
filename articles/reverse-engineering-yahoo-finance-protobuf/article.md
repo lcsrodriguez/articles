@@ -19,6 +19,24 @@
 ## Protobuf reverse engineering
 
 
+1. Download the JavaScript source script from a random HTTP request on `*.finance.yahoo.com`:
+```bash
+mkdir assets; cd assets/
+curl -s https://s.yimg.com/uc/finance/webcore/js/_staticFinProtobuf.b489a1e1df53bbfff9f8.mjs > proto.js
+```
+2. Pretty-print the JS file:
+```bash
+npx prettier proto.js >> proto_final.js
+```
+
+3. Display the resulting and *pretty-print* JS file:
+```bash
+vim proto_final.js
+```
+
+4. Build and compile the `.proto` file:
+
+
 The first element of each `enum` has to be a zero-value.
 - There must be a zero value, so that we can use 0 as a numeric default value.
 - The zero value needs to be the first element, for compatibility with the `proto2`
