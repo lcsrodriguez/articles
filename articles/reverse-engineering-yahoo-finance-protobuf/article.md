@@ -19,21 +19,19 @@
 ## Protobuf reverse engineering
 
 
+The first element of each `enum` has to be a zero-value.
+- There must be a zero value, so that we can use 0 as a numeric default value.
+- The zero value needs to be the first element, for compatibility with the `proto2`
+    semantics where the first enum value is always the default.
+
+Ref: https://developers.google.com/protocol-buffers/docs/proto3?hl=en#enum
+ 
+
 ```protobuf
-// Retro-engineered         : as of May 2023
+// Retro-engineered         : As of May 2023
 // Original development by  : Yahoo
 
 syntax = "proto3";
-
-/*
-  The first element of each enum has to point to a zero-value.
-
-  - There must be a zero value, so that we can use 0 as a numeric default value.
-  - The zero value needs to be the first element, for compatibility with the proto2
-    semantics where the first enum value is always the default.
-
-  Ref: https://developers.google.com/protocol-buffers/docs/proto3?hl=en#enum
- */
 
 
 // Pricing data
