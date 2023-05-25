@@ -4,7 +4,6 @@
 ## Context
 
 
-
 ## Current architecture
 
 
@@ -37,13 +36,31 @@ vim proto_final.js
 4. Build and compile the `.proto` file:
 
 
-The first element of each `enum` has to be a zero-value.
+5. Display the final architecture:
+```bash
+tree -L 2
+```
+
+**Remarks**: The first element of each `enum` has to be a zero-value.
 - There must be a zero value, so that we can use 0 as a numeric default value.
 - The zero value needs to be the first element, for compatibility with the `proto2`
     semantics where the first enum value is always the default.
 
-Ref: https://developers.google.com/protocol-buffers/docs/proto3?hl=en#enum
- 
+Reference: https://developers.google.com/protocol-buffers/docs/proto3?hl=en#enum
+
+```mermaid
+graph TD
+    PricingData
+    StaticData
+
+    PricingData --> QuoteType
+    PricingData --> MarketHours
+    PricingData --> OptionType
+    PricingData --> GD[General attributes] 
+    StaticData --> GD2[General attributes] 
+```
+
+## `.proto` file
 
 ```protobuf
 // Retro-engineered         : As of May 2023
