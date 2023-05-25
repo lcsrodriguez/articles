@@ -1,4 +1,4 @@
-# Reverse engineering of the Yahoo! Finance (WS feature) through ProtoBuf.
+# Reverse engineering of the Yahoo! Finance WebSocket API using ProtoBuf
 
 
 ## Context
@@ -50,14 +50,13 @@ Reference: https://developers.google.com/protocol-buffers/docs/proto3?hl=en#enum
 
 <div class="mermaid">
 graph TD
-    PricingData
-    StaticData
-
-    PricingData --> QuoteType
-    PricingData --> MarketHours
-    PricingData --> OptionType
-    PricingData --> GD[General attributes] 
-    StaticData --> GD2[General attributes] 
+PricingData
+StaticData
+PricingData --> QuoteType
+PricingData --> MarketHours
+PricingData --> OptionType
+PricingData --> GD[General attributes] 
+StaticData --> GD2[General attributes] 
 </div>
 
 ## `.proto` file
