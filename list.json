@@ -4,7 +4,7 @@
         "title": "CEPH - Distributed data storage software layer",
         "visible": false,
         "date": "2022-08-07",
-        "keywords": ""
+        "keywords": "Distributed systems, File storage systems"
     },
     "lobster": {
         "slug": "lobster",
@@ -39,27 +39,27 @@
         "title": "Mercator projection - Mathematical approach",
         "visible": true,
         "date": "2023/05/18",
-        "keywords": "-"
+        "keywords": "Mercator geographical representation, Scale transform"
     },
     "simulating-brownian-motion": {
         "slug": "simulating-brownian-motion",
         "title": "Simulation of a Brownian motion (Wiener process)",
         "visible": true,
-        "date": "2023/05/18",
-        "keywords": "-"
+        "date": "2023/05/16",
+        "keywords": "Numerical simulations"
     },
     "simulating-fractional-brownian-motion": {
         "slug": "simulating-fractional-brownian-motion",
         "title": "Simulation of a Fractional Brownian motion",
         "visible": true,
         "date": "2023/05/20",
-        "keywords": "-"
+        "keywords": "fBm, Cholesky decomposition, Numerical simulations"
     },
     "reverse-engineering-yahoo-finance-protobuf": {
         "slug": "reverse-engineering-yahoo-finance-protobuf",
         "title": "Reverse engineering of the Yahoo! Finance (WS feature) through ProtoBuf",
         "visible": false,
         "date": "2023/05/25",
-        "keywords": "-"
+        "keywords": "Protobuf, Websockets, API, Real-time data"
     }
 }
