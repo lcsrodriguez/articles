@@ -30,7 +30,7 @@
     "heavy-tailed-dist": {
         "slug": "heavy-tailed-dist",
         "title": "Overview of heavy-tailed distribution",
-        "visible": false,
+        "visible": true,
         "date": "2022/09/13",
         "keywords": "-"
     },
