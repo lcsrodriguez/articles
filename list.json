@@ -44,7 +44,7 @@
     "simulating-brownian-motion": {
         "slug": "simulating-brownian-motion",
         "title": "Simulation of a Brownian motion (Wiener process)",
-        "visible": true,
+        "visible": false,
         "date": "2023/05/16",
         "keywords": "Numerical simulations"
     },
