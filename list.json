@@ -58,7 +58,7 @@
     "reverse-engineering-yahoo-finance-protobuf": {
         "slug": "reverse-engineering-yahoo-finance-protobuf",
         "title": "Reverse engineering of the Yahoo! Finance (WS feature) through ProtoBuf",
-        "visible": false,
+        "visible": true,
         "date": "2023/05/25",
         "keywords": "Protobuf, Websockets, API, Real-time data"
     }
