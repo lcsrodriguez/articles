@@ -61,5 +61,12 @@
         "visible": true,
         "date": "2023/05/25",
         "keywords": "Protobuf, Websockets, API, Real-time data"
+    },
+    "private-pypi-server": {
+        "slug": "private-pypi-server",
+        "title": "Create a private PyPi server",
+        "visible": true,
+        "date": "2023/12/31",
+        "keywords": "PyPi server, Python packages"
     }
 }
