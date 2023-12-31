@@ -30,9 +30,9 @@
     "heavy-tailed-dist": {
         "slug": "heavy-tailed-dist",
         "title": "Overview of heavy-tailed distribution",
-        "visible": false,
+        "visible": true,
         "date": "2022/09/13",
-        "keywords": "-"
+        "keywords": "Exponential dist, statistic benchmark, AEST"
     },
     "mercator-projection": {
         "slug": "mercator-projection",
@@ -44,7 +44,7 @@
     "simulating-brownian-motion": {
         "slug": "simulating-brownian-motion",
         "title": "Simulation of a Brownian motion (Wiener process)",
-        "visible": true,
+        "visible": false,
         "date": "2023/05/16",
         "keywords": "Numerical simulations"
     },
@@ -58,7 +58,7 @@
     "reverse-engineering-yahoo-finance-protobuf": {
         "slug": "reverse-engineering-yahoo-finance-protobuf",
         "title": "Reverse engineering of the Yahoo! Finance (WS feature) through ProtoBuf",
-        "visible": false,
+        "visible": true,
         "date": "2023/05/25",
         "keywords": "Protobuf, Websockets, API, Real-time data"
     }
