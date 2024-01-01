@@ -108,7 +108,10 @@ python3 -m pip install –-user –-upgrade setuptools wheel twine
 ```shell
 python3 setup.py sdist bdist_wheel
 ```
-4. twine upload --repository-url http://localhost:8090 dist/* 
+4. Upload the package's new version on our server:
+```shell
+twine upload --repository-url http://localhost:8090 dist/* 
+```
 
 
 ## Conclusion
