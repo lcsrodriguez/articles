@@ -68,5 +68,12 @@
         "visible": true,
         "date": "2023/12/31",
         "keywords": "PyPi server, Python packages"
+    },
+    "c-cpp-version": {
+        "slug": "c-cpp-version",
+        "title": "Determine the C/C++ current version",
+        "visible": true,
+        "date": "2024/05/04",
+        "keywords": "C, C++, compiler version"
     }
 }
