@@ -9,14 +9,14 @@ In C, the macro variable `__STDC_VERSION__` contains the C version. We can write
 #include <stdio.h>
 
 int main() {
-        printf("%ld", __STDC_VERSION__);
-        return 0;
+    printf("%ld", __STDC_VERSION__);
+    return 0;
 }
 ```
 
 ```shell
-$       gcc c_ver.c -o c_ver
-$       ./c_ver
+$   gcc c_ver.c -o c_ver
+$   ./c_ver
 ```
 
 We get the following output after execution:
@@ -36,16 +36,17 @@ The following file returns this macro's value on standard output.
 #include <iostream>
 
 int main() {
-        printf("%ld", __cplusplus);
-        return 0;
+    printf("%ld", __cplusplus);
+    return 0;
 }
 ```
 
 ```shell
-$       g++ cpp_ver.cpp -o cpp_ver
-$       ./cpp_ver
+$   g++ cpp_ver.cpp -o cpp_ver
+$   ./cpp_ver
 ```
 
+**Remark**: The command flag `-std=XXX` is also available for `g++` command.
 
 ## Conclusion
 
