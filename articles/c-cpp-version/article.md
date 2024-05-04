@@ -54,3 +54,5 @@ $       ./cpp_ver
 
 1. https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html
 2. https://gcc.gnu.org/onlinedocs/gcc-9.5.0/cpp/Standard-Predefined-Macros.html
+3. https://cplusplus.com/doc/tutorial/preprocessor/
+4. https://hackingcpp.com/cpp/std/macro_cplusplus.html
