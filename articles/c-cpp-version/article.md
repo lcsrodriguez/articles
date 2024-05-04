@@ -15,20 +15,36 @@ int main() {
 ```
 
 ```shell
-gcc main.c -o c_ver
-./c_ver
+$       gcc c_ver.c -o c_ver
+$       ./c_ver
 ```
 
 We get the following output after execution:
-```
+```shell
 $   201710
 ```
-
 
 **Remark**: The command flag `-std=c18` might be used before compilation to force a C version to be used.
 
 ## C++
 
+As for C++, the macro variable `__cplusplus` is used to determine the version of C++ during compilation stage.
+
+The following file returns this macro's value on standard output.
+
+```cpp
+#include <iostream>
+
+int main() {
+        printf("%ld", __cplusplus);
+        return 0;
+}
+```
+
+```shell
+$       g++ cpp_ver.cpp -o cpp_ver
+$       ./cpp_ver
+```
 
 
 ## Conclusion
