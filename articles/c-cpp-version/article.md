@@ -48,8 +48,13 @@ $   ./cpp_ver
 
 **Remark**: The command flag `-std=XXX` is also available for `g++` command.
 
-## Conclusion
-
+| C++ version 	| `__cplusplus` value 	|
+|:-------------:|:-----------------:	|
+| C++98       	|       199711      	|
+| C++11       	|       201103      	|
+| C++14       	|       201402      	|
+| C++17       	|       201703      	|
+| C++20       	|       202002      	|
 
 ## References
 
